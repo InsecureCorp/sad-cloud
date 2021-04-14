@@ -1,4 +1,4 @@
 pr_comments_enabled: true
-thresholds:
+pr_status_thresholds:
   critical: 0
   high: 0
