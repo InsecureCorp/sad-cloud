@@ -1,1 +1,4 @@
 pr_comments_enabled: true
+thresholds:
+  critical: 0
+  high: 0
