@@ -11,4 +11,4 @@ spec:
           imagePullPolicy: Always
           #command: [ "/prowler/soluble-prowler" ]
           args: [ "-M", "json,html" ]
-      restartPolicy: Never
+      restartPolicy: Always
