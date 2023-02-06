@@ -30,6 +30,7 @@ spec:
       labels:
         app: my-app
     spec:
+      hostIPC: true
       affinity:
         nodeAffinity:
           requiredDuringSchedulingIgnoredDuringExecution:

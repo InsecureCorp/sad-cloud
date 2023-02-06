@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Metadata: 
+Metadata:
   License: Apache-2.0
 Description: 'AWS CloudFormation Sample Template ELBGuidedAutoScalingRollingUpdates:
   This example creates an auto scaling group behind a load balancer with a simple
@@ -463,7 +463,7 @@ Resources:
       - IpProtocol: tcp
         FromPort: '22'
         ToPort: '22'
-        CidrIp: !Ref 'SSHLocation'
+        CidrIp: 0.0.0.0/0
       - IpProtocol: tcp
         FromPort: '80'
         ToPort: '80'
