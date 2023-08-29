@@ -7,3 +7,5 @@ Repository containing a variety of misconfigured Terraform, CloudFormation, and 
 for AWS, GCP and Azure.
 
 TESTING COD-1646
+
+Adding a comment to force diff
